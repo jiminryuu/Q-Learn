@@ -94,8 +94,3 @@ for i in range(int(len(Avg_Reward)/group_size)):
     average = sum(curr_group) / len(curr_group)
     print(f"Mean of average reward values from iteration {(i)*group_size + 1} to {group_size*(i+1)}: {average}")
 
-print('''\nThe most optimal policy will result in an E(X) of around 63. This can be achieved if we
-reduce the exploration factor epsilon. But it will take more runs to acheive a better policy
-rather than a higher epsilon factor in which we achieve a better policy quicker but we 
-converge to a good policy, just not the optimal one''')
-
