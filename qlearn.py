@@ -1,6 +1,4 @@
-#Ji Min Ryu 
-# This python script implements q learning in a static environment and 
-# shows how it converges to an effective policy
+
 
 import random
 
